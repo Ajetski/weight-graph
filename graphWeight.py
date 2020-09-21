@@ -9,8 +9,6 @@ fig, ax = plt.subplots()
 
 dates = [datetime.strptime(date, '%m/%d/%y') for date in df["Date"].values]
 
-print(dates)
-
 weights = df["Weight"].values
 
 plt.plot(dates, weights)
