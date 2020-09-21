@@ -1,3 +1,4 @@
 env/*
 Weight.csv
 .vscode*
+run.sh
